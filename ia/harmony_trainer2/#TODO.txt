@@ -1,0 +1,77 @@
+# Chord Identifier TODO
+
+## Backend - Database Schema
+- [x] Criar tabela de vídeos processados (videos)
+- [x] Criar tabela de acordes detectados (chords)
+- [x] Criar tabela de análises musicais (analyses)
+- [x] Criar tabela de fila de processamento (processing_queue)
+
+## Backend - Processamento de Áudio
+- [x] Instalar dependências Python (yt-dlp, librosa, numpy, scipy)
+- [x] Criar script Python para download de áudio do YouTube
+- [x] Implementar extração de cromagramas com librosa
+- [x] Desenvolver algoritmo de detecção de acordes
+- [x] Criar sistema de detecção de batidas para sincronização temporal
+- [x] Implementar processamento assíncrono de vídeos
+
+## Backend - API tRPC
+- [x] Criar endpoint para submeter URL do YouTube
+- [x] Criar endpoint para verificar status de processamento
+- [x] Criar endpoint para recuperar acordes processados
+- [x] Criar endpoint para listar histórico de vídeos
+- [x] Criar endpoint para análise musical via LLM
+- [x] Implementar sistema de cache de resultados
+
+## Backend - Integração LLM
+- [x] Criar procedimento para análise de tonalidade
+- [x] Implementar sugestões de progressões harmônicas
+- [x] Desenvolver insights musicais baseados em acordes detectados
+- [x] Criar análise de complexidade harmônica
+
+## Frontend - Tema Cyberpunk
+- [x] Configurar paleta de cores neon (rosa, ciano, roxo)
+- [x] Adicionar fontes geométricas com efeitos de brilho
+- [x] Criar componentes com estética HUD futurista
+- [x] Implementar animações e transições cyberpunk
+- [x] Adicionar efeitos de scanline e glitch
+
+## Frontend - Interface Principal
+- [x] Criar página inicial com input de URL do YouTube
+- [x] Implementar validação de URL com feedback visual
+- [x] Desenvolver componente de player YouTube integrado
+- [x] Criar grid de visualização de acordes sincronizado
+- [x] Implementar timeline interativa com scrubbing
+
+## Frontend - Sistema de Fila
+- [x] Criar interface de fila de processamento
+- [x] Implementar indicadores de progresso em tempo real
+- [x] Desenvolver sistema de notificações de status
+- [x] Criar visualização de múltiplos vídeos em processamento
+
+## Frontend - Histórico e Cache
+- [x] Criar página de histórico de vídeos processados
+- [ ] Implementar busca e filtros no histórico
+- [x] Desenvolver cards de vídeo com preview de acordes
+- [ ] Criar sistema de favoritos/salvos
+
+## Frontend - Análise Musical
+- [x] Criar painel de insights musicais via LLM
+- [x] Implementar visualização de tonalidade detectada
+- [x] Desenvolver sugestões de progressões harmônicas
+- [x] Criar análise de complexidade e padrões
+
+## Testes e Qualidade
+- [x] Escrever testes vitest para endpoints principais
+- [ ] Testar processamento com vídeos de diferentes durações
+- [ ] Validar precisão de detecção de acordes
+- [ ] Testar sistema de fila com múltiplos usuários
+- [ ] Verificar performance e otimizações
+
+## Deploy e Documentação
+- [x] Criar checkpoint final
+- [x] Documentar uso da aplicação
+- [x] Preparar para publicação
+
+## Bugs Reportados
+- [ ] Corrigir conflito de versão Python (3.13 vs 3.11) no audio_processor.py
+- [ ] Garantir que o script use explicitamente Python 3.11
